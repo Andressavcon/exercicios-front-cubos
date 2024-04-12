@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formulário 1</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label class="required-label" for="text">Campo de Texto:</label>
+        <input type="text" id="text" placeholder="Digite seu texto" required />
+      </div>
+
+      <div>
+        <label class="required-label" for="number">Campo Numérico:</label>
+        <input
+          type="number"
+          id="number"
+          placeholder="Digite um número"
+          required
+          min="11"
+          max="11"
+        />
+      </div>
+
+      <div>
+        <label class="required-label" for="email">Campo de Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Digite seu email"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="checkbox">Caixa de Marcação:</label>
+        <input type="checkbox" id="checkbox" />
+      </div>
+
+      <div>
+        <label class="required-label" for="password">Campo de Senha:</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Digite sua senha"
+          required
+        />
+      </div>
+
+      <div>
+        <label class="required-label" for="textarea">
+          Campo de Texto Grande
+        </label>
+        <textarea
+          id="textarea"
+          rows="4"
+          placeholder="Digite seu texto aqui"
+          required
+          minlength="20"
+          maxlength="150"
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="radio">Botão de escolha:</label>
+        <input type="radio" id="opcao1" name="radio" />
+        <label for="opcao1">Opção 1: </label>
+        <input type="radio" id="opcao2" name="radio" />
+        <label for="opcao2">Opção 2: </label>
+      </div>
+
+      <div>
+        <label for="select">Campo Seleção:</label>
+        <select id="select">
+          <option value="1">Opção 1</option>
+          <option value="2">Opção 2</option>
+          <option value="3">Opção 3</option>
+        </select>
+      </div>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Desfazer alterações</button>
+    </form>
+  </body>
+</html>

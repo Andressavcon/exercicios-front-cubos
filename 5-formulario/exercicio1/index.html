@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formulário 1</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="first-name">Nome:</label>
+        <input type="text" id="first-name" />
+      </div>
+
+      <div>
+        <label for="last-name">Sobrenome:</label>
+        <input type="text" id="last-name" />
+      </div>
+
+      <div>
+        <label for="pass">Senha:</label>
+        <input type="password" id="pass" />
+      </div>
+
+      <div>
+        <label for="img">Escolha uma foto:</label>
+        <input type="file" id="img" />
+      </div>
+
+      <div class="states">
+        <label for="states">Selecione um Estado:</label>
+        <select id="states">
+          <option value="ac">Acre</option>
+          <option value="al">Alagoas</option>
+          <option value="ap">Amapá</option>
+          <option value="am">Amazonas</option>
+          <option value="ba">Bahia</option>
+          <option value="ce">Ceará</option>
+          <option value="df">Distrito Federal</option>
+          <option value="es">Espírito Santo</option>
+          <option value="go">Goiás</option>
+          <option value="ma">Maranhão</option>
+          <option value="mt">Mato Grosso</option>
+          <option value="ms">Mato Grosso do Sul</option>
+          <option value="mg">Minas Gerais</option>
+          <option value="pa">Pará</option>
+          <option value="pb">Paraíba</option>
+          <option value="pr">Paraná</option>
+          <option value="pe">Pernambuco</option>
+          <option value="pi">Piauí</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="rn">Rio Grande do Norte</option>
+          <option value="rs">Rio Grande do Sul</option>
+          <option value="ro">Rondônia</option>
+          <option value="rr">Roraima</option>
+          <option value="sc">Santa Catarina</option>
+          <option value="sp" selected>São Paulo</option>
+          <option value="se">Sergipe</option>
+          <option value="to">Tocantins</option>
+        </select>
+      </div>
+
+      <div class="obs">
+        <label for="obs">Observações:</label>
+        <textarea id="obs" rows="7"></textarea>
+      </div>
+
+      <button>Enviar</button>
+      <button>Desfazer alterações</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--text-bg-purple);
+  text-decoration: none;
+}
+
+:root {
+  --bg-purple: #7c187c;
+  --bg-main: #e9eeef;
+  --text-bg-purple: #fff;
+  --text-bg-main: #000;
+}
+
+header {
+  background-color: var(--bg-purple);
+  color: var(--text-bg-purple);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+main {
+  background-color: var(--bg-main);
+  color: var(--text-bg-main);
+  height: 600px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: var(--bg-purple);
+  color: var(--text-bg-purple);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-topics {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
